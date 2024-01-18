@@ -4,9 +4,8 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8081/eureka
-
 spring:
-    jpa:
+  jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
@@ -18,11 +17,11 @@ spring:
         use_jdbc_metadata_defaults: false
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
     database: POSTGRESQL
-   datasource:
+  datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: mypassword
     hikari:
       connectionTimeout: 20000
-      maximumPoolSize: 5 
+      maximumPoolSize: 5
