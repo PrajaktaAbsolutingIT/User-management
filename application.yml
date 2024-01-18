@@ -25,3 +25,17 @@ spring:
     hikari:
       connectionTimeout: 20000
       maximumPoolSize: 5
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    password: oocd okpi obnu mlbn
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+    username: kumbharprajakta105@gmail.com
